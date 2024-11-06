@@ -4,12 +4,14 @@ If it is meaningless to weight the variables of the category class, it will dist
 Question5
 At a percentage of 24.6% that the training data has an income > 50k.
 A model reached an accuracy 70% is a good model.
+![image](https://github.com/user-attachments/assets/7f57a261-4a21-4fe7-a4ec-132df5f66f10)
 
 Using np.shape(trainingData), we know there are 85 dimensions.
 
 Question6
 
 Question7
+![image](https://github.com/user-attachments/assets/17e82a1a-5236-433a-96ed-fc9328dbf1d9)
 
 Question8
 def cross_validation(train_X, foldA, foldB, foldC, foldD, train_Y, k):
@@ -41,6 +43,8 @@ K = 99 0.833
 K = 999 0.824
 K = 8000 0.755
 The best number of neighbors (k) I observed is when k is smallest. When k = 1, the training accuracy is 0.987, where the error isn’t exactly zero. 
+![image](https://github.com/user-attachments/assets/bc28402f-0cef-406c-b2b8-814508424655)
 
 
 Cross-validation accuracy rate will increase with increasing k. Both a small and a large number of k might result in overfitting or underfitting, respectively. Overfitting implies that a model performs well on training data but poorly when fresh data is introduced.
+![image](https://github.com/user-attachments/assets/f33d3e79-224d-466e-9661-b1089bd42fcd)
